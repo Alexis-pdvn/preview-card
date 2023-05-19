@@ -1,0 +1,100 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #F2F2F2;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body .box{
+
+  display: flex;
+  height: 100vh;
+color: white;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  max-width: 1230px;
+  border-radius: 10px;
+}
+
+.cards h1{
+  text-transform: uppercase;
+  margin: 50px 0px;
+}
+.cards p{
+  margin-bottom: 110px;
+  width: 255px;
+  margin-left: unset;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.card{
+  width: 410px;
+  padding: 65px 60px;
+}
+
+.yellow{
+  background-color: #E28525;
+  border-radius: 10px 0px 0px 10px;
+}
+.blue{
+  background-color: #016972;
+}
+.green{
+  background-color: #00403F;
+  border-radius: 0px 10px 10px 0px;
+}
+.yellow a{
+  color: #E28525;
+}
+.blue a{
+  color: #016972;
+}
+.green a{
+  color: #00403F;
+}
+
+.card .cta{
+  background-color: white;
+  border:1px solid white;
+  padding: 20px 40px;
+  border-radius: 50px;
+  font-size: 16px;
+  display: block;
+  width: max-content;
+  margin-left: unset;
+  text-decoration: unset;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+
+.card .cta:hover{
+  background-color: unset;
+  border:1px solid white;
+  color: white;
+}
+
+@media (max-width: 1000px) { 
+
+  .cards{
+    display: unset;
+    padding: 2rem;
+  }
+  .yellow {
+    border-radius: 10px 10px 0px 0px;
+}
+.green {
+  border-radius: 0px 0px 10px 10px;
+}
+body .box {
+  height: unset;
+}
+ }
